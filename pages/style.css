@@ -285,11 +285,10 @@ img.IMAGE_CENTER {
         src: url(/pages/font/font-default.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 
 .text-special {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
 	background-color: #fff;
 	color: #FF00FF;
 	line-height: 1.3;
