@@ -314,3 +314,16 @@ img.IMAGE_CENTER {
 p {
     font-family: 'font-default';
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Mali:wght@600&display=swap');
+.notes {
+	font-family: 'Italianno', cursive;
+	font-family: 'Mali', cursive;
+	color: #008000;
+	}
+.notes-red {
+	font-family: 'Italianno', cursive;
+	font-family: 'Mali', cursive;
+	color:  #FF0000;
+	}
+	
