@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-    <div class="text-icon">Wahyu6070</div>
+    <div class="text-icon">LiteGapps</div>
       </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -18,21 +18,11 @@
         </li>
         <li class="nav-item">
           <a 
-          {% if page.url == "/blog" %} class="nav-link active" aria-current="page"
-          {% elsif page.url == /blog/ %} class="nav-link active" aria-current="page" 
+          {% if page.url == "/download" %} class="nav-link active" aria-current="page" 
           {% else %} <a class="nav-link"
           {% endif %}
-          href="/blog">
-          Blog</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a 
-          {% if page.url == "/project" %} class="nav-link active" aria-current="page" 
-          {% else %} <a class="nav-link"
-          {% endif %}
-          href="/project">
-          Project</a>
+          href="/download.html">
+          Download</a>
         </li>
         <li class="nav-item">
           <a 
@@ -41,6 +31,14 @@
           {% endif %}
           href="/documentation">
           Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a 
+          {% if page.url == "/contributors.html" %} class="nav-link active" aria-current="page" 
+          {% else %} <a class="nav-link"
+          {% endif %}
+          href="/contributors.html">
+          Contributor</a>
         </li>
         <li class="nav-item">
           <a 
